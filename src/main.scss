@@ -1,0 +1,36 @@
+/*
+ * Entry point of global application style.
+ * Component-specific style should not go here and be included directly as part of the components.
+ */
+
+// Theme variables, must be included before the libraries to allow overriding defaults
+@import "theme/theme-variables";
+
+// 3rd party libraries
+@import "~bootstrap/scss/bootstrap";
+@import "~font-awesome/scss/font-awesome.scss";
+
+// Theme customization
+@import "theme/theme";
+
+body{
+     background-image: url("https://static.pexels.com/photos/656195/pexels-photo-656195.jpeg");
+}
+
+h2{
+    
+}
+
+
+
+.bg-dark{
+    background:#5E6575;
+}
+
+a{
+    color:inherit;
+    font-weight:bold;
+    &:hover {
+        color:D0CBE1;
+    }
+}

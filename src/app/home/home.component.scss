@@ -1,0 +1,44 @@
+.logo {
+  width: 100px;
+}
+
+q {
+  font-style: italic;
+  font-size: 1.2rem;
+  quotes: "« " " »";
+}
+
+#profile{
+    border: 2px white solid;
+    border-radius: 175px;
+    box-shadow: 0px 0px 0px 10px black;
+        width: 350px;
+}
+
+#intro{
+  display: flex;
+  align-items: center;
+}
+
+.links{
+     background: #423c3a;
+    font-size: 18px;
+    margin-top: 30px;
+    width: 30%;
+    padding-left: 5px;
+    color: silver;
+    margin: 15px auto;
+}
+
+h2{
+  font-size:4rem;
+  color:#8a8a8a;
+}
+
+h4{
+  font-size:2rem;
+  color:#5E6575;
+}
+
+
+    
